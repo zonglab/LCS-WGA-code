@@ -17,5 +17,18 @@ One Baylor Plaza, Houston, Texas, 77030
 #Corresponding Author: Chenghang Zong, (chenghang.zong@bcm.edu)
 
 
+Alignment bash script: bwamap.sh
+
+Variant calling and damSNV analysis bash script:denovoparser.sh 
+
+Python codes: 
+
+gtbulksearch.py -- used for removing germline mutations in bulk sample
+
+localseqfilter.py  -- used for removing the variants in the sequence with significant portion of one type of nucleotide such as polyA, polyT, polyG or polyC
+
+tripletfilter3x.py -- used for estimating de novo mutations
+
+
 
 
