@@ -1,6 +1,6 @@
 # MACSBA-codes
 
-Custom code for MACSBA data analysis
+Custom codes for analyzing MACSBA sequencing data
 
 --- Single-cell Whole Genome Sequencing Unveils Low Accumulation Rate of Somatic Mutations along with Aging in Human Cortical Neurons 
 
