@@ -1,10 +1,10 @@
 # LCS-WGA codes
 
-Custom codes for analyzing MACSBA sequencing data
+Custom codes for analyzing LCS-WGA sequencing data
 
---- Linear-Splitting Single-Cell Whole Genome Amplification Unveils Low Accumulation Rate of Somatic Mutations along with Aging in Human Cortical Neurons 
+--- Single-Cell Damagenome Profiling Unveils Vulnerable Genes and Functional Pathways towards DNA damage in Human Genome 
 
-Qiangyuan Zhu1*, Yichi Niu1*, Michael Gundry1, Muchun Niu1, Chenghang Zong1,2,3#
+Qiangyuan Zhu1*, Yichi Niu1*, Michael Gundry1,  Chenghang Zong1,2,3#
 
 Affiliations:
 1Department of Molecular and Human Genetics,
@@ -27,7 +27,7 @@ gtbulksearch.py -- used for removing germline mutations in bulk sample
 
 localseqfilter.py  -- used for removing the variants in the sequence with significant portion of one type of nucleotide such as polyA, polyT, polyG or polyC
 
-tripletfilter3x.py -- used for estimating de novo mutations
+tripletfilter2x.py -- used for detection of de novo variants detected in two or more split data
 
 
 
