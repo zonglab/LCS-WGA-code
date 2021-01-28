@@ -24,7 +24,7 @@ java -Xmx4g -jar /data1/opt/GenomeAnalysisTK3.8.jar -T SelectVariants -R /data1/
 
 #select the variants detected in two or three splits
 
-tripletfilter.py snp.${cn}.vcf $x1 $x2 $x3 > malps2x.${cn}.vcf
+tripletfilter2x.py snp.${cn}.vcf $x1 $x2 $x3 > malps2x.${cn}.vcf
 
 # filter out variants in tandem, close to centromere and telomere regions and indel loci called based on bulk sequencing data. 
 bedtools intersect -a malps2x.${cn}.vcf  -b /ref/hg19_tandem.bed -v > ${cn}.notandem.vcf
