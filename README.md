@@ -1,4 +1,4 @@
-# MACSBA-codes
+# LCS-WGA codes
 
 Custom codes for analyzing MACSBA sequencing data
 
