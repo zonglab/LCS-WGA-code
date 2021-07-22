@@ -29,16 +29,16 @@ with open(filename1) as f1, open(filename2) as f2:
        localseq = rows2[2][:10]
        localseq2 = rows2[2][10:]
 
-       if ( localseq.count('A')+localseq.count('a') >=12 or  \
-            localseq.count('T')+localseq.count('t') >=12 or  \
-            localseq.count('G')+localseq.count('g') >=12 or  \
-            localseq.count('C')+localseq.count('c') >=12 ) :
+       if ( localseq.count('A')+localseq.count('a') >=8 or  \
+            localseq.count('T')+localseq.count('t') >=8 or  \
+            localseq.count('G')+localseq.count('g') >=8 or  \
+            localseq.count('C')+localseq.count('c') >=8 ) :
           continue
 
-       if ( localseq2.count('A')+localseq2.count('a') >=12 or  \
-            localseq2.count('T')+localseq2.count('t') >=12 or  \
-            localseq2.count('G')+localseq2.count('g') >=12 or  \
-            localseq2.count('C')+localseq2.count('c') >=12 ) :
+       if ( localseq2.count('A')+localseq2.count('a') >=8 or  \
+            localseq2.count('T')+localseq2.count('t') >=8 or  \
+            localseq2.count('G')+localseq2.count('g') >=8 or  \
+            localseq2.count('C')+localseq2.count('c') >=8 ) :
           continue
 
        print line.strip()
